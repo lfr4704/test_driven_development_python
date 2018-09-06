@@ -13,12 +13,15 @@ def fizzBuzz( value ):
         return "Fizz"
     elif isMultiple ( value, 5 ):
         return "Buzz"
-    elif isMultiple( value, 3 ) != 0 and isMultiple( value, 5 ) !=0:
+    elif remainderIsNot0( value, 3 ) and ( value, 5 ) and value != 1 and value !=2:
         return "zzzz"
     return str(value)
     
 def isMultiple( value, mod ):
     return ( value % mod ) == 0
+    
+def remainderIsNot0( value, mod ):
+    return ( value % mod ) != 0
     
 
 def checkFizzBuzz( value, expectedReturnVal ):
@@ -61,7 +64,7 @@ def test_returnsBuzzWithMultipleOf5():
 def test_returnsFizzBuzzWithMultipleOf3And5():
     checkFizzBuzz (15, "FizzBuzz")
     
-# Test 9: get "zzzz" when I pass in 11 (not a multiple of 3 and 5) 
+# Test 9: get "zzzz" when I pass any other number not a multiple of 3 and 5
 
 def test_returnsZzzzWithNoMultipleOf3And5():
     checkFizzBuzz (11, "zzzz")
