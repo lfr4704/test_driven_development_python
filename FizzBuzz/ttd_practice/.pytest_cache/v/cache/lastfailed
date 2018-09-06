@@ -1,0 +1,16 @@
+{
+  "lib/python2.7/site-packages/setuptools/tests/test_bdist_egg.py": true, 
+  "lib/python2.7/site-packages/setuptools/tests/test_build_ext.py": true, 
+  "lib/python2.7/site-packages/setuptools/tests/test_develop.py": true, 
+  "lib/python2.7/site-packages/setuptools/tests/test_dist_info.py": true, 
+  "lib/python2.7/site-packages/setuptools/tests/test_easy_install.py": true, 
+  "lib/python2.7/site-packages/setuptools/tests/test_egg_info.py": true, 
+  "lib/python2.7/site-packages/setuptools/tests/test_markerlib.py": true, 
+  "lib/python2.7/site-packages/setuptools/tests/test_packageindex.py": true, 
+  "lib/python2.7/site-packages/setuptools/tests/test_resources.py": true, 
+  "lib/python2.7/site-packages/setuptools/tests/test_sandbox.py": true, 
+  "lib/python2.7/site-packages/setuptools/tests/test_sdist.py": true, 
+  "lib/python2.7/site-packages/setuptools/tests/test_svn.py": true, 
+  "lib/python2.7/site-packages/setuptools/tests/test_test.py": true, 
+  "lib/python2.7/site-packages/setuptools/tests/test_upload_docs.py": true
+}

@@ -1,0 +1,10 @@
+[
+  "tests/test_FizzBuzzTest.py::test_returns1With1PassedIn", 
+  "tests/test_FizzBuzzTest.py::test_returns2With2PassedIn", 
+  "tests/test_FizzBuzzTest.py::test_returnsFizzWith3PassedIn", 
+  "tests/test_FizzBuzzTest.py::test_returnsBuzzWith5PassedIn", 
+  "tests/test_FizzBuzzTest.py::test_returnsFizzWithMultipleOf3", 
+  "tests/test_FizzBuzzTest.py::test_returnsBuzzWithMultipleOf5", 
+  "tests/test_FizzBuzzTest.py::test_returnsFizzBuzzWithMultipleOf3And5", 
+  "tests/test_FizzBuzzTest.py::test_returnsZzzzWithNoMultipleOf3And5"
+]
